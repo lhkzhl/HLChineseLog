@@ -1,0 +1,2 @@
+# HLChineseLog
+log Chinese easy
