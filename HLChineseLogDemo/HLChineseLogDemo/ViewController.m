@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    id obj = @[@"中国",@"中国人",@{@"中国":@"强大",@"中国人":@[@"勤劳",@"勇敢"]}];
+    NSLog(@"%@",obj);
+
 }
 
 

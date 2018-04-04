@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import <HLChineseLog/NSDictionary+Chinese.h>
 @interface HLChineseLogDemoTests : XCTestCase
 
 @end
@@ -35,5 +35,11 @@
         // Put the code you want to measure the time of here.
     }];
 }
+
+- (void)testLog{
+    id obj = @[@"中国",@"中国人",@{@"中国":@"强大",@"中国人":@[@"勤劳",@"勇敢"]}];
+    NSLog(@"%@",obj);
+}
+
 
 @end

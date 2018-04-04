@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49E2530ACDCA9A579D0EB8A3 /* libPods-HLChineseLogDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 151A7C5C8EE80A1824AA5A45 /* libPods-HLChineseLogDemoUITests.a */; };
+		54EC8AB57DB94CA08EB4AF1F /* libPods-HLChineseLogDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 488041A201109D4F6B6DB99B /* libPods-HLChineseLogDemoTests.a */; };
+		7938BC29AC1C4A9A08E8D7E1 /* libPods-HLChineseLogDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B474514766FEF64AC1676C9 /* libPods-HLChineseLogDemo.a */; };
 		BA86FC49207385A9006C7322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86FC48207385A9006C7322 /* AppDelegate.m */; };
 		BA86FC4C207385A9006C7322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86FC4B207385A9006C7322 /* ViewController.m */; };
 		BA86FC4F207385A9006C7322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA86FC4D207385A9006C7322 /* Main.storyboard */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BE48570FA80DCDBA6D3CA9 /* Pods-HLChineseLogDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemoUITests/Pods-HLChineseLogDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0B474514766FEF64AC1676C9 /* libPods-HLChineseLogDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLChineseLogDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		151A7C5C8EE80A1824AA5A45 /* libPods-HLChineseLogDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLChineseLogDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488041A201109D4F6B6DB99B /* libPods-HLChineseLogDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLChineseLogDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5095F402BECC2BA4015D774A /* Pods-HLChineseLogDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemoTests/Pods-HLChineseLogDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		54941233264E5D637ED90C94 /* Pods-HLChineseLogDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemo/Pods-HLChineseLogDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57CCC7430D1870686B091091 /* Pods-HLChineseLogDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemoTests/Pods-HLChineseLogDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C983EFD3E8CD18CAD7E1334 /* Pods-HLChineseLogDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemo/Pods-HLChineseLogDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BA86FC44207385A9006C7322 /* HLChineseLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLChineseLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA86FC47207385A9006C7322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA86FC48207385A9006C7322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		BA86FC67207385A9006C7322 /* HLChineseLogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLChineseLogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA86FC6B207385A9006C7322 /* HLChineseLogDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLChineseLogDemoUITests.m; sourceTree = "<group>"; };
 		BA86FC6D207385A9006C7322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DD457898C5ECE05D89EBB2 /* Pods-HLChineseLogDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLChineseLogDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLChineseLogDemoUITests/Pods-HLChineseLogDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7938BC29AC1C4A9A08E8D7E1 /* libPods-HLChineseLogDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC8AB57DB94CA08EB4AF1F /* libPods-HLChineseLogDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E2530ACDCA9A579D0EB8A3 /* libPods-HLChineseLogDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0EF0A346186AD57B36BF6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C983EFD3E8CD18CAD7E1334 /* Pods-HLChineseLogDemo.debug.xcconfig */,
+				54941233264E5D637ED90C94 /* Pods-HLChineseLogDemo.release.xcconfig */,
+				57CCC7430D1870686B091091 /* Pods-HLChineseLogDemoTests.debug.xcconfig */,
+				5095F402BECC2BA4015D774A /* Pods-HLChineseLogDemoTests.release.xcconfig */,
+				F2DD457898C5ECE05D89EBB2 /* Pods-HLChineseLogDemoUITests.debug.xcconfig */,
+				01BE48570FA80DCDBA6D3CA9 /* Pods-HLChineseLogDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B96011F030E348C0FCEBE8B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B474514766FEF64AC1676C9 /* libPods-HLChineseLogDemo.a */,
+				488041A201109D4F6B6DB99B /* libPods-HLChineseLogDemoTests.a */,
+				151A7C5C8EE80A1824AA5A45 /* libPods-HLChineseLogDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA86FC3B207385A9006C7322 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				BA86FC5F207385A9006C7322 /* HLChineseLogDemoTests */,
 				BA86FC6A207385A9006C7322 /* HLChineseLogDemoUITests */,
 				BA86FC45207385A9006C7322 /* Products */,
+				9F0EF0A346186AD57B36BF6C /* Pods */,
+				B96011F030E348C0FCEBE8B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA86FC70207385A9006C7322 /* Build configuration list for PBXNativeTarget "HLChineseLogDemo" */;
 			buildPhases = (
+				D58B94B2169E31DE4F3B9D5E /* [CP] Check Pods Manifest.lock */,
 				BA86FC40207385A9006C7322 /* Sources */,
 				BA86FC41207385A9006C7322 /* Frameworks */,
 				BA86FC42207385A9006C7322 /* Resources */,
+				BF61F2762025943B058DD7ED /* [CP] Embed Pods Frameworks */,
+				00F4D3A8AC19AB2AF8F1C346 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA86FC73207385A9006C7322 /* Build configuration list for PBXNativeTarget "HLChineseLogDemoTests" */;
 			buildPhases = (
+				02EE3D9A8F325E31505474A8 /* [CP] Check Pods Manifest.lock */,
 				BA86FC58207385A9006C7322 /* Sources */,
 				BA86FC59207385A9006C7322 /* Frameworks */,
 				BA86FC5A207385A9006C7322 /* Resources */,
+				48BD9CFA2B689B28859B1D84 /* [CP] Embed Pods Frameworks */,
+				E9EF2E7648926F1DE42DB1C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA86FC76207385A9006C7322 /* Build configuration list for PBXNativeTarget "HLChineseLogDemoUITests" */;
 			buildPhases = (
+				1CD6E749311DBBFF23A03DE0 /* [CP] Check Pods Manifest.lock */,
 				BA86FC63207385A9006C7322 /* Sources */,
 				BA86FC64207385A9006C7322 /* Frameworks */,
 				BA86FC65207385A9006C7322 /* Resources */,
+				83069486E4C1E36A11641FE8 /* [CP] Embed Pods Frameworks */,
+				76D363E815C8536476AD63A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F4D3A8AC19AB2AF8F1C346 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemo/Pods-HLChineseLogDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02EE3D9A8F325E31505474A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLChineseLogDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD6E749311DBBFF23A03DE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLChineseLogDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48BD9CFA2B689B28859B1D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemoTests/Pods-HLChineseLogDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D363E815C8536476AD63A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemoUITests/Pods-HLChineseLogDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83069486E4C1E36A11641FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemoUITests/Pods-HLChineseLogDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF61F2762025943B058DD7ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemo/Pods-HLChineseLogDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58B94B2169E31DE4F3B9D5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLChineseLogDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EF2E7648926F1DE42DB1C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLChineseLogDemoTests/Pods-HLChineseLogDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA86FC40207385A9006C7322 /* Sources */ = {
@@ -428,6 +624,7 @@
 		};
 		BA86FC71207385A9006C7322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C983EFD3E8CD18CAD7E1334 /* Pods-HLChineseLogDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +638,7 @@
 		};
 		BA86FC72207385A9006C7322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54941233264E5D637ED90C94 /* Pods-HLChineseLogDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +652,7 @@
 		};
 		BA86FC74207385A9006C7322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CCC7430D1870686B091091 /* Pods-HLChineseLogDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +667,7 @@
 		};
 		BA86FC75207385A9006C7322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5095F402BECC2BA4015D774A /* Pods-HLChineseLogDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +682,7 @@
 		};
 		BA86FC77207385A9006C7322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DD457898C5ECE05D89EBB2 /* Pods-HLChineseLogDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HLChineseLogDemoUITests/Info.plist;
@@ -495,6 +696,7 @@
 		};
 		BA86FC78207385A9006C7322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BE48570FA80DCDBA6D3CA9 /* Pods-HLChineseLogDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HLChineseLogDemoUITests/Info.plist;
