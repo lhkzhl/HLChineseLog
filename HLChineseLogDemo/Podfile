@@ -8,7 +8,7 @@ target 'HLChineseLogDemo' do
   # Pods for HLChineseLogDemo
 	
   pod 'HLChineseLog'
-  
+
 
   target 'HLChineseLogDemoTests' do
     inherit! :search_paths

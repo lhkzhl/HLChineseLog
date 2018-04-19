@@ -8,6 +8,25 @@
 
 #import "ViewController.h"
 
+
+
+
+#ifdef DEBUG
+
+#define HLLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+//NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" FORMAT), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
+//NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" FORMAT), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+//fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+
+#define HLLog(...)
+
+#endif
+
 @interface ViewController ()
 
 @end
@@ -21,6 +40,9 @@
     
     id obj = @[@"中国",@"中国人",@{@"中国":@"强大",@"中国人":@[@"勤劳",@"勇敢"]}];
     NSLog(@"%@",obj);
+    
+    HLLog(@"%@",obj);
+    
 
 }
 
