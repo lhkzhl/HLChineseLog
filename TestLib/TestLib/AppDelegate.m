@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Person.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Person *p = [Person new];
+    [p run];
+    
+    
     return YES;
 }
 

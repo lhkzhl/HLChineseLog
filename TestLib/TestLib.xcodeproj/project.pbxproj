@@ -15,6 +15,7 @@
 		BA41185E2079DA0400A445BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41185D2079DA0400A445BB /* main.m */; };
 		BA4118682079DA0400A445BB /* TestLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4118672079DA0400A445BB /* TestLibTests.m */; };
 		BA4118732079DA0400A445BB /* TestLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4118722079DA0400A445BB /* TestLibUITests.m */; };
+		BA4118852079DA4B00A445BB /* liblibzhlSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4118842079DA4B00A445BB /* liblibzhlSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		BA41186E2079DA0400A445BB /* TestLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4118722079DA0400A445BB /* TestLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLibUITests.m; sourceTree = "<group>"; };
 		BA4118742079DA0400A445BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4118832079DA4B00A445BB /* libzhlSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libzhlSDK.h; sourceTree = "<group>"; };
+		BA4118842079DA4B00A445BB /* liblibzhlSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibzhlSDK.a; sourceTree = "<group>"; };
+		BA4118882079DA8700A445BB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4118852079DA4B00A445BB /* liblibzhlSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 		BA41184D2079DA0400A445BB /* TestLib */ = {
 			isa = PBXGroup;
 			children = (
+				BA4118802079DA1500A445BB /* lib */,
 				BA41184E2079DA0400A445BB /* AppDelegate.h */,
 				BA41184F2079DA0400A445BB /* AppDelegate.m */,
 				BA4118512079DA0400A445BB /* ViewController.h */,
@@ -130,6 +136,32 @@
 				BA4118742079DA0400A445BB /* Info.plist */,
 			);
 			path = TestLibUITests;
+			sourceTree = "<group>";
+		};
+		BA4118802079DA1500A445BB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BA4118812079DA4B00A445BB /* include */,
+				BA4118842079DA4B00A445BB /* liblibzhlSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BA4118812079DA4B00A445BB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BA4118822079DA4B00A445BB /* libzhlSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BA4118822079DA4B00A445BB /* libzhlSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BA4118832079DA4B00A445BB /* libzhlSDK.h */,
+				BA4118882079DA8700A445BB /* Person.h */,
+			);
+			path = libzhlSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +465,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestLib/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhl.TestLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +482,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestLib/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhl.TestLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
