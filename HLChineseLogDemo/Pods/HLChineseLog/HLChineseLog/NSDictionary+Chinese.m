@@ -34,7 +34,9 @@
     return str;
 }
 
-
+- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level{
+    return self.description;
+}
 @end
 
 
@@ -61,7 +63,9 @@
     [str appendString:@")\n"];
     return str;
 }
-
+- (NSString *)descriptionWithLocale:(id)locale indent:(NSUInteger)level{
+    return self.description;
+}
 @end
 
 #endif

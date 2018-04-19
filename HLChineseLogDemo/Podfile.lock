@@ -1,11 +1,11 @@
 PODS:
-  - HLChineseLog (0.0.1)
+  - HLChineseLog (0.0.2)
 
 DEPENDENCIES:
   - HLChineseLog
 
 SPEC CHECKSUMS:
-  HLChineseLog: e1ea0af11267b7d3f71ce08d3e4f831ed8dbc625
+  HLChineseLog: d5828ea26715ff7912193b8d02112244ef47622f
 
 PODFILE CHECKSUM: 6f57f3d5a0871e30c94fef412dce9667785ad988
 
