@@ -2,27 +2,27 @@
 log Chinese easy when debug scheme
 
 简要说明
-第一次 使用CocoaPods创建公共库，所以用这个简单的东西
-$pod search [HLChineseLog] 中[HLChineseLog] 表示HLChineseLog替换成你想输入的参数
+    第一次 使用CocoaPods创建公共库，所以用这个简单的东西
+    $pod search [HLChineseLog] 中[HLChineseLog] 表示HLChineseLog替换成你想输入的参数
 
 
 使用CocoaPods创建公共库
-首先感谢 https://www.jianshu.com/p/d2d98298b1b8
-其次英文好的完全可以去https://cocoapods.org
+    首先感谢 https://www.jianshu.com/p/d2d98298b1b8  
+    其次英文好的完全可以去https://cocoapods.org  
 
-1.要创建CocoaPods公有库，首先要注册CocoaPods账号
-$ pod trunk register [GitHub_email]  [user_name] --verbose
-eg： pod trunk register lhkzhl@163.com lhkzhl --verbose
-  然后登录邮箱点击验证
- 2. pod trunk me 查看注册信息
-    失败：[!] Authentication token is invalid or unverified. Either verify it with the email that was sent or register a new session.
+#### 1.要创建CocoaPods公有库，首先要注册CocoaPods账号
+$ pod trunk register [GitHub_email]  [user_name] --verbose  
+eg： pod trunk register lhkzhl@163.com lhkzhl --verbose  
+  然后登录邮箱点击验证  
+#### 2. pod trunk me 查看注册信息
+    失败：[!] Authentication token is invalid or unverified. Either verify it with the email that was sent or register a new session.  
     成功：会有Name,Email等信息
-3.在GitHub创建Git仓库
-    创建Git仓库需要包含几个文件，a,b,c 应该都知道，主要说d
-    a.license:开源许可证
-    b.readme.md
-    c.你的代码
-    d.*.podspec   如HLChineseLog.podspec
+#### 3.在GitHub创建Git仓库
+    创建Git仓库需要包含几个文件，a,b,c 应该都知道，主要说d  
+    a.license:开源许可证  
+    b.readme.md  
+    c.你的代码   
+    d.*.podspec   如HLChineseLog.podspec  
     
     创建.podspec 文件
     $ pod spec create [fileName]
@@ -52,27 +52,27 @@ eg： pod trunk register lhkzhl@163.com lhkzhl --verbose
 
     end
 
-4.验证.podspec 文件配置是否正确
+#### 4.验证.podspec 文件配置是否正确
   $pod lib lint
   如果不对按提示修改配置
   
-5. 配置正确，发布之前必须 给仓库打标签 tag
+#### 5. 配置正确，发布之前必须 给仓库打标签 tag
 $ git tag -a 0.0.1 -m [message]//创建标签
 $ git push origin --tags//推送到远程
-6.发布 .podspec
+#### 6.发布 .podspec
 pod trunk push [HLChineseLog.podspec]
 如果成功可以到https://cocoapods.org/pods/HLChineseLog 查看
 
-7.问题
- 虽然发布成功了但是别高兴太早，虽然能看到，但是在https://cocoapods.org/ 可以搜索不到，我是第二天才搜索到
+#### 7.问题
+ 虽然发布成功了但是别高兴太早，虽然能看到，但是在https://cocoapods.org/ 可以搜索不到，我是第二天才搜索到  
  
- 第二天搜索到了也不要高兴太早：
- 因为$pod search HLChineseLog 搜索不到
- Unable to find a pod with name, author, summary, or description matching
- 1.pod setup
- 2.删除~/Library/Caches/CocoaPods目录下的search_index.json文件
-     重新$pod search [HLChineseLog]
-     耐心等待，终于搜索到了
+ 第二天搜索到了也不要高兴太早：  
+ 因为$pod search HLChineseLog 搜索不到  
+ Unable to find a pod with name, author, summary, or description matching  
+ 1.pod setup  
+ 2.删除~/Library/Caches/CocoaPods目录下的search_index.json文件  
+     重新$pod search [HLChineseLog]  
+     耐心等待，终于搜索到了  
     
     
     
