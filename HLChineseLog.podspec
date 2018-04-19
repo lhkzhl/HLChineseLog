@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLChineseLog"
-  s.version      = "0.0.1"
-  s.summary      = "log chinese easy"
+  s.version      = "0.0.2"
+  s.summary      = "log chinese easy and support macro Log"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
 		log chinese easy to use
+		and support macro Log
                    DESC
 
   s.homepage     = "https://github.com/lhkzhl/HLChineseLog"
