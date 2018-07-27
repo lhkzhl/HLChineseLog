@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HLChineseLog"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "log chinese easy and support macro Log"
 
   # This description is used to generate tags and improve search results.

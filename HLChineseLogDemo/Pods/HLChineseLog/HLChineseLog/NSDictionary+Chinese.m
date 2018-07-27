@@ -18,11 +18,12 @@
     [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
 
         NSString *value = [obj description];
-        if ([obj isKindOfClass:[NSArray class]]) {
+        if ([obj isKindOfClass:[NSArray class]] || [obj isKindOfClass:[NSDictionary class]]) {
             value = [value stringByReplacingCharactersInRange:NSMakeRange(0, 0) withString:@"\t"];
             value = [value stringByReplacingCharactersInRange:NSMakeRange(value.length-1, 1) withString:@""];
             value = [value stringByReplacingOccurrencesOfString:@"\n" withString:@"\n\t"];
         }
+
         if (idx == self.count - 1) {
             [str appendString:[NSString stringWithFormat:@"\t%@ = %@\n",key,value]];
         }else{
@@ -48,7 +49,7 @@
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
 
         NSString *value = [obj description];
-        if ([obj isKindOfClass:[NSDictionary class]]) {
+        if ([obj isKindOfClass:[NSDictionary class]] || [obj isKindOfClass:[NSArray class]]) {
             value = [value stringByReplacingCharactersInRange:NSMakeRange(0, 0) withString:@"\t"];
             value = [value stringByReplacingCharactersInRange:NSMakeRange(value.length-1, 1) withString:@""];
             value = [value stringByReplacingOccurrencesOfString:@"\n" withString:@"\n\t"];
