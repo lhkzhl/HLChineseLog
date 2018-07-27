@@ -1,12 +1,37 @@
 # HLChineseLog
-log Chinese easy when debug scheme
+log Chinese easy when debug scheme  
 
-简要说明
+	ViewController.m:44	(   
+	    "\U4e2d\U56fd",  
+	    "\U4e2d\U56fd\U4eba",  
+	        {  
+	        "\U4e2d\U56fd" = "\U5f3a\U5927";  
+	        "\U4e2d\U56fd\U4eba" =         (  
+	            "\U52e4\U52b3",  
+	            "\U52c7\U6562"  
+	        );  
+	    }  
+	)  
+	HLChineseLogDemo[8895:252874] (  
+	  	中国,  
+		中国人,  
+			{  
+			中国人 = 	(  
+				勤劳,  
+				勇敢  
+			);  
+			中国 = 强大  
+		}  
+	)  
+
+## 使用说明
+	pod 'HLChineseLog'
+###简要说明CocoaPods 创建公共库情况
     第一次 使用CocoaPods创建公共库，所以用这个简单的东西
     $pod search [HLChineseLog] 中[HLChineseLog] 表示HLChineseLog替换成你想输入的参数
 
 
-使用CocoaPods创建公共库
+使用CocoaPods创建公共库 
     首先感谢 https://www.jianshu.com/p/d2d98298b1b8  
     其次英文好的完全可以去https://cocoapods.org  
 
@@ -16,6 +41,7 @@ eg： pod trunk register lhkzhl@163.com lhkzhl --verbose
   然后登录邮箱点击验证  
 #### 2. pod trunk me 查看注册信息
     失败：[!] Authentication token is invalid or unverified. Either verify it with the email that was sent or register a new session.  
+	**遇到这种情况请执行第一步**
     成功：会有Name,Email等信息
 #### 3.在GitHub创建Git仓库
     创建Git仓库需要包含几个文件，a,b,c 应该都知道，主要说d  
